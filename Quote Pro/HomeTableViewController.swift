@@ -59,7 +59,12 @@ class HomeTableViewController: UITableViewController, QuoteVCDelegate {
 
         let currentCell = tableView.cellForRowAtIndexPath(indexPath) as! QuoteTVC
 
-        let objectsToShare = [snapshot(currentCell.contentView)]
+        
+        let quoteView = QuoteView(frame: self.view.bounds)
+        quoteView.imageView.image = currentCell.quoteImageView.image
+        quoteView.quoteLabel.text = currentCell.quoteLabel.text
+        
+        let objectsToShare = [snapshot(quoteView)]
         let activityVC = UIActivityViewController(activityItems: objectsToShare, applicationActivities: nil)
         
         activityVC.popoverPresentationController?.sourceView = self.view
@@ -67,7 +72,7 @@ class HomeTableViewController: UITableViewController, QuoteVCDelegate {
     }
     
     
-    func snapshot(view: UIView) -> UIImage {
+    func snapshot(view: QuoteView) -> UIImage {
         
         UIGraphicsBeginImageContextWithOptions(view.bounds.size, false, 0);
         view.drawViewHierarchyInRect(view.bounds, afterScreenUpdates: true)
