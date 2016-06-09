@@ -7,23 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		43290C821D087AB30036AC6A /* HomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43290C811D087AB30036AC6A /* HomeTableViewController.swift */; };
 		4347BDEA1D0862EC009775A9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4347BDE91D0862EC009775A9 /* AppDelegate.swift */; };
-		4347BDEC1D0862EC009775A9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4347BDEB1D0862EC009775A9 /* ViewController.swift */; };
+		4347BDEC1D0862EC009775A9 /* QuoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4347BDEB1D0862EC009775A9 /* QuoteViewController.swift */; };
 		4347BDEF1D0862EC009775A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4347BDED1D0862EC009775A9 /* Main.storyboard */; };
 		4347BDF21D0862EC009775A9 /* Quote_Pro.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4347BDF01D0862EC009775A9 /* Quote_Pro.xcdatamodeld */; };
 		4347BDF41D0862EC009775A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4347BDF31D0862EC009775A9 /* Assets.xcassets */; };
 		4347BDF71D0862EC009775A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4347BDF51D0862EC009775A9 /* LaunchScreen.storyboard */; };
+		4347BDFF1D087148009775A9 /* Quote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4347BDFE1D087148009775A9 /* Quote.swift */; };
+		4347BE011D087153009775A9 /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4347BE001D087153009775A9 /* Photo.swift */; };
+		434EC39B1D08A36400AAF1A7 /* QuoteView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 434EC39A1D08A36400AAF1A7 /* QuoteView.xib */; };
+		434EC39D1D08A3C400AAF1A7 /* QuoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434EC39C1D08A3C400AAF1A7 /* QuoteView.swift */; };
+		43B6CE2A1D08BDAE0044C3EF /* QuoteTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B6CE291D08BDAE0044C3EF /* QuoteTVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		43290C811D087AB30036AC6A /* HomeTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeTableViewController.swift; sourceTree = "<group>"; };
 		4347BDE61D0862EC009775A9 /* Quote Pro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Quote Pro.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4347BDE91D0862EC009775A9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4347BDEB1D0862EC009775A9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4347BDEB1D0862EC009775A9 /* QuoteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteViewController.swift; sourceTree = "<group>"; };
 		4347BDEE1D0862EC009775A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4347BDF11D0862EC009775A9 /* Quote_Pro.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Quote_Pro.xcdatamodel; sourceTree = "<group>"; };
 		4347BDF31D0862EC009775A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4347BDF61D0862EC009775A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4347BDF81D0862EC009775A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4347BDFE1D087148009775A9 /* Quote.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Quote.swift; sourceTree = "<group>"; };
+		4347BE001D087153009775A9 /* Photo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
+		434EC39A1D08A36400AAF1A7 /* QuoteView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = QuoteView.xib; path = ../QuoteView.xib; sourceTree = "<group>"; };
+		434EC39C1D08A3C400AAF1A7 /* QuoteView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = QuoteView.swift; path = ../QuoteView.swift; sourceTree = "<group>"; };
+		43B6CE291D08BDAE0044C3EF /* QuoteTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuoteTVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +49,54 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		43290C831D087AB70036AC6A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4347BDF01D0862EC009775A9 /* Quote_Pro.xcdatamodeld */,
+				4347BDFE1D087148009775A9 /* Quote.swift */,
+				4347BE001D087153009775A9 /* Photo.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		43290C841D087ABC0036AC6A /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4347BDEB1D0862EC009775A9 /* QuoteViewController.swift */,
+				43290C811D087AB30036AC6A /* HomeTableViewController.swift */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		43290C851D087AC60036AC6A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				43B6CE291D08BDAE0044C3EF /* QuoteTVC.swift */,
+				434EC39C1D08A3C400AAF1A7 /* QuoteView.swift */,
+				434EC39A1D08A36400AAF1A7 /* QuoteView.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		43290C861D087AE80036AC6A /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				4347BDED1D0862EC009775A9 /* Main.storyboard */,
+				4347BDF51D0862EC009775A9 /* LaunchScreen.storyboard */,
+			);
+			name = Storyboard;
+			sourceTree = "<group>";
+		};
+		43290C871D087AF90036AC6A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4347BDE91D0862EC009775A9 /* AppDelegate.swift */,
+				4347BDF31D0862EC009775A9 /* Assets.xcassets */,
+				4347BDF81D0862EC009775A9 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		4347BDDD1D0862EC009775A9 = {
 			isa = PBXGroup;
 			children = (
@@ -56,13 +116,11 @@
 		4347BDE81D0862EC009775A9 /* Quote Pro */ = {
 			isa = PBXGroup;
 			children = (
-				4347BDE91D0862EC009775A9 /* AppDelegate.swift */,
-				4347BDEB1D0862EC009775A9 /* ViewController.swift */,
-				4347BDED1D0862EC009775A9 /* Main.storyboard */,
-				4347BDF31D0862EC009775A9 /* Assets.xcassets */,
-				4347BDF51D0862EC009775A9 /* LaunchScreen.storyboard */,
-				4347BDF81D0862EC009775A9 /* Info.plist */,
-				4347BDF01D0862EC009775A9 /* Quote_Pro.xcdatamodeld */,
+				43290C831D087AB70036AC6A /* Model */,
+				43290C841D087ABC0036AC6A /* ViewController */,
+				43290C851D087AC60036AC6A /* View */,
+				43290C861D087AE80036AC6A /* Storyboard */,
+				43290C871D087AF90036AC6A /* Supporting Files */,
 			);
 			path = "Quote Pro";
 			sourceTree = "<group>";
@@ -128,6 +186,7 @@
 				4347BDF71D0862EC009775A9 /* LaunchScreen.storyboard in Resources */,
 				4347BDF41D0862EC009775A9 /* Assets.xcassets in Resources */,
 				4347BDEF1D0862EC009775A9 /* Main.storyboard in Resources */,
+				434EC39B1D08A36400AAF1A7 /* QuoteView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,9 +197,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4347BDEC1D0862EC009775A9 /* ViewController.swift in Sources */,
+				4347BDFF1D087148009775A9 /* Quote.swift in Sources */,
+				4347BDEC1D0862EC009775A9 /* QuoteViewController.swift in Sources */,
 				4347BDF21D0862EC009775A9 /* Quote_Pro.xcdatamodeld in Sources */,
+				43290C821D087AB30036AC6A /* HomeTableViewController.swift in Sources */,
+				43B6CE2A1D08BDAE0044C3EF /* QuoteTVC.swift in Sources */,
+				434EC39D1D08A3C400AAF1A7 /* QuoteView.swift in Sources */,
 				4347BDEA1D0862EC009775A9 /* AppDelegate.swift in Sources */,
+				4347BE011D087153009775A9 /* Photo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,6 +356,7 @@
 				4347BDFD1D0862EC009775A9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
